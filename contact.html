@@ -1,0 +1,79 @@
+<html>
+<head>
+  <meta name="viewport" content="with=device-width, initial-scale=1.0">
+  <title>Good Health + Well Being</title>
+  <link rel="stylesheet"href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Lora:ital,wght@0,500;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+<section class="sub-header">
+      <nav> 
+        <div class="nav-links" id="navLinks">
+           <ul>
+            <li><a href="indexs.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html.html">COURSE</a></li>
+            <li><a href="blog.html.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+           </ul> 
+        </div>
+      </nav>
+      <h1>Contact Us </h1>
+</section>
+
+<!-------Contact Us----->
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.4823334726243!2d100.29442957890183!3d5.343092996143166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac0517b233963%3A0x7d82a21a4d5a7b47!2z6I-p5o-Q5Zu95rCR5Z6L5Y2O5paH5Lit5a2m!5e0!3m2!1szh-CN!2smy!4v1676712774335!5m2!1szh-CN!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>Adress</h5>
+                    <p>731, Jalan Sungai Dua, 11700 Bayan Lepas, Pulau Pinang</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>No.Telephone</h5>
+                    <p>+601159824115</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>Email Adress</h5>
+                    <p>m-8787671@moe-dl.edu.my</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+            <form action="form-handler.php" method="post">
+                <input type="text" name="name" placeholder="Enter Your Name"required>
+                <input type="email" name="email" placeholder="Enter Email Adress"required>
+                <input type="text" name="subject" placeholder="Enter Your Subject"required>
+                <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+    
+<!---------JavaScript for Toggle Menu------>
+<script>
+    var navLinks=documet.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+</body>
+</html>
